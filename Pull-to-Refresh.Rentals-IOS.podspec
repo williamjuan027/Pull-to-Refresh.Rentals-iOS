@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
 
-  spec.source_files = 'YALTourPullToRefresh/YALSunnyRefreshControll/*'
+  spec.source_files = 'YALTourPullToRefresh/YALSunnyRefreshControll/*.{h,m}'
   spec.source = { :git => 'https://github.com/Yalantis/Pull-to-Refresh.Rentals-iOS.git', :tag => spec.version }
   spec.frameworks = 'UIKit'
 end
